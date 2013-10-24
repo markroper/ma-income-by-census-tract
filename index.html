@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>MA Income</title>
+		<!-- css TODO: @mroper move me to the bottom when you're done f'ing around -->
+		<link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css"/>
+		<link href="./ma.css" rel="stylesheet" type="text/css"/>
+		<!-- scripts TODO: @mroper handle concatenation of non-requirejs module scripts-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://d3js.org/topojson.v0.min.js"></script>
+		<script src="./ma.js"></script>
+	</head>
+	<body>
+		
+		<div id="header">
+			<h1 id="pageTitle"">Massachusetts Household Income by Census Tract</h1>
+			<h2 id="currentTown"></h2>
+		</div>
+		<div id="legend">
+			<div class="LegendHeader">Annual household income in thousands (USD):</div>
+			<div class="LegendEntry"><div class="ColorSwatch cffffff"></div><div class="label">0-10</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch cf0f8ee"></div><div class="label">10-30</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch cd1e9cb"></div><div class="label">30-40</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch cb3dba9"></div><div class="label">40-50</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c94cc86"></div><div class="label">50-60</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c76be64"></div><div class="label">60-70</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c57af41"></div><div class="label">70-80</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c39a11f"></div><div class="label">80-90</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c33951b"></div><div class="label">90-100</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c2d8916"></div><div class="label">100 -105</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c277d12"></div><div class="label">105-110</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c21720d"></div><div class="label">110-115</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c1e6c0b"></div><div class="label">115-120</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c1b6609"></div><div class="label">120-125</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c186006"></div><div class="label">125-130</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c155a04"></div><div class="label">130-135</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c125402"></div><div class="label">135-140</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c115202"></div><div class="label">140-145</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c0f4701"></div><div class="label">145-150</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c0e4301"></div><div class="label">150-155</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c0c3c00"></div><div class="label">155-160</div></div><!--
+			--><div class="LegendEntry"><div class="ColorSwatch c0b3800"></div><div class="label">160-170</div></div>
+		</div>
+	</body>
+</html>

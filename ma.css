@@ -1,0 +1,115 @@
+/*Headers & fonts*/
+h1, h2{
+	font-family:'OpenSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	-webkit-margin-before: 0.25em;
+	-webkit-margin-after: 0.25em;
+}
+h1{
+	color: #363636;
+}
+h2{
+	color: #DEDEDE;
+}
+#header{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	height:4em;
+	text-align:center;
+}
+
+/*SVG styles*/
+.town{
+	fill-opacity: 0;
+	stroke: black;
+	stroke-width: .3;
+	stroke-linejoin: round;
+}
+.town:hover{
+	fill-opacity:.8;
+	fill:yellow;
+}
+.tract{
+	fill: none;
+}
+.i160000{ fill: #0b3800 !important; }
+.i155000{ fill: #0c3c00 !important; }
+.i150000{ fill: #0e4301 !important; }
+.i145000{ fill: #0f4701 !important; }
+.i140000{ fill: #115202 !important; }
+.i135000{ fill: #125402 !important; }
+.i130000{ fill: #155a04 !important; }
+.i125000{ fill: #186006 !important; }
+.i120000{ fill: #1b6609 !important; }
+.i115000{ fill: #1e6c0b !important; }
+.i110000{ fill: #21720d !important; }
+.i105000{ fill: #277d12 !important; }
+.i100000{ fill: #2d8916 !important; }
+.i95000{ fill: #33951b !important; }/* 308f18*/
+.i90000{ fill: #33951b !important; }
+.i85000{ fill: #39a11f !important; }/* #369b1d */
+.i80000{ fill: #39a11f !important; }
+.i75000{ fill: #57af41 !important; }/* 48a830*/
+.i70000{ fill: #57af41 !important; }
+.i65000{ fill: #76be64 !important; }/*67b753*/
+.i60000{ fill: #76be64 !important; }
+.i55000{ fill: #94cc86 !important; }/* 85c575*/
+.i50000{ fill: #94cc86 !important; }
+.i45000{ fill: #b3dba9 !important; }/* a4d498 */
+.i40000{ fill: #b3dba9 !important; }
+.i35000{ fill: #d1e9cb !important; }/*#c2e2ba*/
+.i30000{ fill: #d1e9cb !important; }
+.i25000{ fill: #f0f8ee !important; }/* #e1f1dd*/
+.i20000{ fill: #f0f8ee !important; }
+.i15000{ fill: #f0f8ee !important; }
+.i10000{ fill: #f0f8ee !important; }
+.i5000{ fill: #ffffff !important; }
+
+/*Legend styles*/
+#legend{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: 50px;
+}
+.LegendHeader{
+	font-size:.8em;
+	color:#7A7A7A;
+	font-family:'OpenSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding-bottom:5px;
+	padding-left: 30px;
+}
+.LegendEntry{ display:inline-block;width:4.5%; padding:0; margin:0;}
+.ColorSwatch{width:100%; height:10px;}
+.label{
+	font-size:.6em; 
+	text-align:center; 
+	height:20px;
+	font-family:'OpenSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.c0b3800{ background-color: #0b3800 !important; }
+.c0c3c00{ background-color: #0c3c00 !important; }
+.c0e4301{ background-color: #0e4301 !important; }
+.c0f4701{ background-color: #0f4701 !important; }
+.c115202{ background-color: #115202 !important; }
+.c125402{ background-color: #125402 !important; }
+.c155a04{ background-color: #155a04 !important; }
+.c186006{ background-color: #186006 !important; }
+.c1b6609{ background-color: #1b6609 !important; }
+.c1e6c0b{ background-color: #1e6c0b !important; }
+.c21720d{ background-color: #21720d !important; }
+.c277d12{ background-color: #277d12 !important; }
+.c2d8916{ background-color: #2d8916 !important; }
+.c33951b{ background-color: #33951b !important; }
+.c39a11f{ background-color: #39a11f !important; }
+.c57af41{ background-color: #57af41 !important; }
+.c76be64{ background-color: #76be64 !important; }
+.c94cc86{ background-color: #94cc86 !important; }
+.cb3dba9{ background-color: #b3dba9 !important; }
+.cd1e9cb{ background-color: #d1e9cb !important; }
+.cf0f8ee{ background-color: #f0f8ee !important; }
+.cffffff{ background-color: #ffffff !important; }
+
+
