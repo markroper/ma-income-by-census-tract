@@ -1,7 +1,7 @@
 # MA Heatmap Visualization
 ### A d3 heatmap vizualization of annual income by census tract in Massachusetts
 
-Contents of the repo include a topojson file expressing the boundaries of all the census tracts in the state of MA.  I used the census API to pull down household income by tract from the 2010 census data.  I then used D3 to generate a heat-map visualization of the state showing income by tract.  You can check it out at joda.mn/mapz.
+Contents of the repo include a topojson file expressing the boundaries of all the census tracts in the state of MA.  I used the census API to pull down household income by tract from the 2010 census data.  I then used D3 to generate a heat-map visualization of the state showing income by tract.  You can check it out at http://joda.mn/mapz.
 
 # License
 
